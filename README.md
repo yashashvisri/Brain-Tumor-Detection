@@ -48,19 +48,11 @@ All images are preprocessed by resizing them to $128 \times 128$ pixels before b
 
 ## ⚙️ Installation
 To get this project running on your local machine, follow these steps.
-
-1.  **Clone the repository:**
+  **Clone the repository:**
     ```bash
     git clone [https://github.com/your-username/brain-tumor-detection.git](https://github.com/your-username/brain-tumor-detection.git)
     cd brain-tumor-detection
     ```
-
-2.  **Install the required libraries:**
-    It is highly recommended to use a virtual environment.
-    ```bash
-    pip install tensorflow numpy matplotlib opencv-python
-    ```
-
 ***
 
 ## 🚀 Usage
