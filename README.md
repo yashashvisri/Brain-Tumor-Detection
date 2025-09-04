@@ -1,4 +1,4 @@
-# 🧠 Brain Tumor Detection using Deep Learning
+# Brain Tumor Detection using Deep Learning
 
 This project uses a deep learning model to classify brain tumors from MRI scans. The model is built with Keras and TensorFlow, leveraging the VGG16 architecture through transfer learning for high accuracy.
 ***
@@ -8,7 +8,7 @@ Early and accurate diagnosis of brain tumors is crucial for effective treatment.
 
 ***
 
-## ✨ Features
+## Features
 * **Multi-Class Classification**: Identifies multiple types of brain tumors from MRI images.
 * **Transfer Learning**: Utilizes the powerful VGG16 model, pre-trained on the vast ImageNet dataset, as a feature extractor.
 * **Fine-Tuning**: The last three convolutional layers of VGG16 are unfrozen and retrained to adapt the model specifically for the brain MRI dataset.
@@ -16,7 +16,7 @@ Early and accurate diagnosis of brain tumors is crucial for effective treatment.
 
 ***
 
-## 🧠 Model Architecture
+## Model Architecture
 The model is constructed sequentially, starting with the VGG16 base and adding custom classification layers on top.
 
 1.  **Input Layer**: The model accepts images of size $128 \times 128$ with 3 color channels (RGB).
